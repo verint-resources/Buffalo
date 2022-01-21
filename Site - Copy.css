@@ -1,0 +1,162 @@
+﻿body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea,
+div.form-control {
+    max-width: 280px;
+}*/
+
+/* buttons and links extension to use brackets: [ click me ] */
+.btn-bracketed::before {
+    display:inline-block;
+    content: "[";
+    padding-right: 0.5em;
+}
+.btn-bracketed::after {
+    display:inline-block;
+    content: "]";
+    padding-left: 0.5em;
+}
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 40px;
+}
+
+.jumbotron .p, .jumbotron p {
+    font-size: 18px;
+}
+
+.badge {
+    font-size: inherit;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.validation-summary-errors ul {
+    list-style: none;
+    -moz-padding-start: 0px;
+    -webkit-padding-start: 0px;
+    -khtml-padding-start: 0px;
+    -o-padding-start: 0px;
+    padding-start: 0px;
+    padding: 0px;
+}
+
+[dir=ltr] .validation-summary-errors ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+[dir=rtr] .validation-summary-errors ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media only screen and (max-width : 767px) {
+    .box {
+    height: auto !important;
+  } 
+}
+
+#wait {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.1;
+    background-color: #fff;
+    color: #fff;
+    z-index: 9999;
+}
+
+/*Use rmwb navy blue instead of default blue. There is a way to do this with SASS also, but that seemed like more work.*/
+.navbar-inverse {
+    background-color: #005070;
+}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff
+    }
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-brand {
+    padding: 10px 15px;
+}
+
+.logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    max-height: 84px;
+}
+
+@media (min-width: 768px) {
+    /*When on desktop, expand to height of logo*/
+    .navbar-nav > li > a {
+        line-height: 54px;
+    }
+    .navbar-brand {
+        line-height: 65px;
+    }
+}
+
+.panel-primary {
+    border-color: #397897;
+}
+
+    .panel-primary > .panel-heading {
+        background-color: #397897;
+        border-color: #397897;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #397897;
+    border-color: #397897;
+}
+
+/*Hide up/down buttons on number fields*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
