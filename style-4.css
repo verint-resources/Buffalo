@@ -1577,6 +1577,7 @@ abbr{
 #dform_container .label, #dform_container label {
       width: inherit;
 	  color: #fff;
+	  padding-left: 20px;
 }
 
 #dform_container .content {
