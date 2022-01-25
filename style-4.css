@@ -1754,6 +1754,14 @@ div.form-control {
     max-height: 84px;
 }
 
+.panel-file {
+    border-color: #397897;
+	background-color: #397897;
+	height: 30px;
+	/*height: 27px;
+	width: 290px !important;*/
+}
+
 .panel-primary {
     border-color: #397897;
 	background-color: #397897;
