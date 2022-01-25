@@ -1569,7 +1569,7 @@ abbr{
 }
 
 #dform_container .label, #dform_container label {
-      width: inherit;
+     /* width: inherit;*/
 }
 #dform_container .content {
     background-color: initial;
