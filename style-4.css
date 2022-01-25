@@ -156,12 +156,14 @@ Need to deside on new generic button - the continue should be promanant - maybe 
 
 /*btn-gov------------------------------------*/
 .btn-gov{
-    box-shadow: inset 0 -2px 0 /*#003618*/ #5c2c55 !important;
-    background: /*#00823b*/ #6d3465!important;
+    box-shadow: inset 0 -2px 0 /*#003618*/ #397897 !important;
+    background: /*#00823b*/ #286090 !important;
+	borer-color: #397897 !important;
 }
 .btn-gov:hover{
     box-shadow: inset 0 -2px 0 /*#003618*/ #5c2c55 !important;
-    background: /*#00682e*/ #5c2c55!important;
+    background: /*#00682e*/ #286090 !important;
+	border-color: #204d74 !important;
     
 }
 .btn-gov:focus{
