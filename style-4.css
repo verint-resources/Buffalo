@@ -13,7 +13,7 @@ Colours being used:
     Main color (box blue)
         #6d3465
     Highlight yellow
-        #FFBF47, #ffbf47
+        #005070, #005070
     Softer white:
         #e8f0de
     Soft grey (read-only)
@@ -165,7 +165,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     
 }
 .btn-gov:focus{
-    box-shadow: inset 0 -2px 0 /*#003618*/ #5c2c55, 0 0 0 3px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 /*#003618*/ #5c2c55, 0 0 0 3px #005070 !important;
 }
 
   
@@ -180,7 +180,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     
 }
 .btn-orange:focus{
-    box-shadow: inset 0 -2px 0 /*#003618*/ #bc5114, 0 0 0 3px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 /*#003618*/ #bc5114, 0 0 0 3px #005070 !important;
 }
 
 /*btn-green---------------------------------*/
@@ -193,7 +193,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     background: #00682e!important;
 }
 .btn-green:focus{
-    box-shadow: inset 0 -2px 0 #003618, 0 0 0 3px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 #003618, 0 0 0 3px #005070 !important;
 }
 /*KS: If not used by mobile - normal sized button*/
 @media (max-width: 768px){
@@ -214,7 +214,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     background: #00682e!important;
 }
 .btn-continue:focus{
-    box-shadow: inset 0 -2px 0 #003618, 0 0 0 3px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 #003618, 0 0 0 3px #005070 !important;
 }
 /*KS: If not used by mobile - normal sized button*/
 @media (max-width: 768px){
@@ -244,7 +244,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     padding: 2.5px 5px 2px 5px!important;
 }
 .btn-back:focus{
-    background: #FFBF47 !important;
+    background: #005070 !important;
 }
 
 /*btn-link------------------------------------*/
@@ -262,7 +262,7 @@ Need to deside on new generic button - the continue should be promanant - maybe 
     font-weight: bold !important;
 }
 .btn-link:focus{
-    background: #FFBF47 !important;
+    background: #005070 !important;
 }
 
 /*KS: btn end
@@ -382,11 +382,11 @@ KS: file-gov Start
 /*KS: darken when hover-able */
 .file-gov  input:focus ~ .file-gov-icon{
     background: #5c2c55 !important; /*Darkened Varint blue*/
-    box-shadow: inset 0 -2px 0 #5c2c55, 0 0 0 3px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 #5c2c55, 0 0 0 3px #005070 !important;
 }
 /*KS depreciated: style when field with error is focused*/
 .file-gov  input.dform_fielderror:focus ~ .file-gov-icon{
-    box-shadow: inset 0 -2px 0 #5c2c55, 0px 0.2px 0px 2px #d45252, 0px 0.2px 0px 5px #FFBF47 !important;
+    box-shadow: inset 0 -2px 0 #5c2c55, 0px 0.2px 0px 2px #d45252, 0px 0.2px 0px 5px #005070 !important;
     border-color: #d45252 !important;
 }
 /*KS depreciated: change border to red when it has an error*/
@@ -541,12 +541,12 @@ KS: txt (and text like fields) Start
 }
 /*KS: style when field is focused - and only when readable*/
 .txt-gov  input:focus:not([readonly]),.dt-gov  input:focus:not([readonly]),.eml-gov  input:focus:not([readonly]),.num-gov  input:focus:not([readonly]),.pas-gov  input:focus:not([readonly]),.tel-gov  input:focus:not([readonly]),.time-gov  input:focus:not([readonly]),.field-gov  input:focus:not([readonly]){
-    /*box-shadow: 0 0 0 3px #FFBF47 !important;*/
-    border-color: #FFBF47 !important;
+    /*box-shadow: 0 0 0 3px #005070 !important;*/
+    border-color: #005070 !important;
 }
 /*KS: style when field with error is focused*/
 .txt-gov  input.dform_fielderror:focus,.dt-gov  input.dform_fielderror:focus,.eml-gov  input.dform_fielderror:focus,.num-gov  input.dform_fielderror:focus,.pas-gov  input.dform_fielderror:focus,.tel-gov  input.dform_fielderror:focus,.time-gov  input.dform_fielderror:focus,.field-gov  input.dform_fielderror:focus{
-    box-shadow: 0 0 0px 3px #FFBF47 !important;
+    box-shadow: 0 0 0px 3px #005070 !important;
     border-color: #d45252 !important;
 }
 /*KS: change border to red when it has an error*/
@@ -601,15 +601,15 @@ KS: txta Start
 }
 /*KS: style when field is focused - and when readable*/
 .txta-gov textarea:focus:not([readonly]){
-    /*box-shadow: 0 0 0 3px #FFBF47 !important;*/
-    border-color: #FFBF47 !important;
+    /*box-shadow: 0 0 0 3px #005070 !important;*/
+    border-color: #005070 !important;
 }
 .txta-gov textarea:focus{
     box-shadow: 0px 0.2px 3px 0px #d45252 !important;
 }
 /*KS: style when field with error is focused*/
 .txta-gov textarea.dform_fielderror:focus{
-    box-shadow: 0 0 0px 3px #FFBF47 !important;
+    box-shadow: 0 0 0px 3px #005070 !important;
     border-color: #d45252 !important;
 }
 /*KS: change border to red when it has an error*/
@@ -844,7 +844,7 @@ KS: Custom gov radio buttons - Start
 }
 .rad-gov > div > fieldset > span  input:focus ~ .rad-check{
     /*border: 3px solid red !important;*/
-    box-shadow: 0 0 0 3px #FFBF47, inset 0 0 0 3px #6d3465;
+    box-shadow: 0 0 0 3px #005070, inset 0 0 0 3px #6d3465;
 }
 .rad-gov > div > fieldset{
     margin: 0 !important;
@@ -962,7 +962,7 @@ KS: gov checkbox Start
 }
 .chk-gov > div  input:focus ~ .chk-check{
     /*border: 3px solid red !important;*/
-    box-shadow: 0 0 0 3px #FFBF47;
+    box-shadow: 0 0 0 3px #005070;
 }
 /*KS: gov checkbox end
 -----------------------------------------------*/
@@ -1067,7 +1067,7 @@ KS: Custom gov multi-checkbox - Start
 }
 .mchk-gov > div > fieldset > span  input:focus ~ .mchk-check{
     /*border: 3px solid red !important;*/
-    box-shadow: 0 0 0 3px #FFBF47;
+    box-shadow: 0 0 0 3px #005070;
 }
 .mchk-gov > div > fieldset{
     margin: 0 !important;
@@ -1184,8 +1184,8 @@ KS: Custom gov multi-checkbox - Start
     color: blue !important;
 }
 [data-type='html'] a[href]:focus {
-    background-color: #ffbf47;
-    outline: 3px solid #ffbf47 !important;
+    background-color: #005070;
+    outline: 3px solid #005070 !important;
 }
 [data-type='html'] a[href]:visited {
     color: purple !important;
