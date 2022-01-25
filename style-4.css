@@ -1743,6 +1743,7 @@ div.form-control {
 
 .panel-primary {
     border-color: #397897;
+	background-color: #397897;
 }
 
     .panel-primary > .panel-heading {
