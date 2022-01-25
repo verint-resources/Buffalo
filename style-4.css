@@ -1441,10 +1441,10 @@ abbr{
 }
 
 .btn-gov, .btn-back, .btn-gov:hover, .btn-gov:focus, .btn-back:hover, .btn-back:focus, .btn-orange, .btn-orange:focus, .btn-orange:hover{
-    background-color: #fff !important;
-    border: 2px solid #6d3465 !important;
+    background-color: #397897 !important;
+    border: 2px solid #397897 !important;
     border-radius: 4.5rem !important;
-    color: #6d3465 !important;
+    color: #fff !important;
     cursor: pointer !important;
     font-family: "Roboto",sans-serif !important;
     margin: 0 0 .75rem !important;
@@ -1460,10 +1460,10 @@ abbr{
     font-size: 0.8rem !important;
 }
 .btn-continue, .btn-continue:hover, .btn-continue:focus{
-    background-color: #fff !important;
-    border: 2px solid #6d3465 !important;
+    background-color: #286090 !important;
+    border: 2px solid #204d74 !important;
     border-radius: 4.5rem !important;
-    color: #6d3465 !important;
+    color: #fff !important;
     cursor: pointer !important;
     font-family: "Roboto",sans-serif !important;
     margin: 0 0 .75rem !important;
@@ -1477,22 +1477,19 @@ abbr{
     vertical-align: middle !important;
     box-shadow: none !important;
     font-size: 0.8rem !important;
-    background-color: #6d3465 !important;
-    border-color: #6d3465 !important;
     color: #fff !important;
 }
 
 .btn-gov:hover, .btn-gov:focus, .btn-back:hover, .btn-back:focus{
-    background-color: #000 !important;
-    border: 1px dotted #000 !important;
+    background-color: #286090 !important;
+    border: 1px dotted #204d74 !important;
     color: #fff !important;
 }
 .btn-continue:hover, .btn-continue:focus{
-    background-color: #000 !important;
-    border: 1px dotted #000 !important;
+    background-color: #286090 !important;
+    border: 1px dotted #204d74 !important;
     color: #fff !important;
 }
-
 
 #GISLegend{
     position:absolute;
