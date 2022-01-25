@@ -1485,8 +1485,8 @@ abbr{
 }
 
 .btn-gov:hover, .btn-gov:focus, .btn-back:hover, .btn-back:focus{
-    background-color: #000 !important;
-    border: 1px dotted #000 !important;
+    background-color: #286090 !important;
+    border: 1px dotted #204d74 !important;
     color: #fff !important;
 }
 .btn-continue:hover, .btn-continue:focus{
