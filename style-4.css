@@ -1579,6 +1579,7 @@ abbr{
       width: inherit;
 	  color: #fff;
 	  padding-left: 20px;
+	  padding-top: 5px;
 }
 
 #dform_container .content {
