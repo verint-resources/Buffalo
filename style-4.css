@@ -1619,3 +1619,12 @@ var {
     color: white !important;
 }
 
+.logo {
+	background-color: #005070;
+
+    /*float: left;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    max-height: 84px;
+}
