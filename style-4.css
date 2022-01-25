@@ -1747,7 +1747,7 @@ div.form-control {
 
 .logo {
 	background-color: #005070;
-    float: left;
+    /*float: left;*/
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 60px;
@@ -1760,6 +1760,14 @@ div.form-control {
 	height: 30px;
 	/*height: 27px;
 	width: 290px !important;*/
+}
+
+.file-gov input{
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+    width: 100% !important;/*??*/
+    margin-bottom: 2px !important;
 }
 
 .panel-primary {
