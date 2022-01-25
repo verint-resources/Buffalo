@@ -1570,9 +1570,15 @@ abbr{
   font-size:2rem
 }
 
+/*#dform_container .label, #dform_container label {
+      width: inherit;
+}*/
+
 #dform_container .label, #dform_container label {
       width: inherit;
+	  color: #fff;
 }
+
 #dform_container .content {
     background-color: initial;
     margin-left: initial;
@@ -1620,6 +1626,10 @@ var {
 .cell:hover {
     background-color: #6d3465;
     color: white !important;
+}
+
+body {
+	padding-left:15px;
 }
 
 /* Set padding to keep content from hitting the edges */
