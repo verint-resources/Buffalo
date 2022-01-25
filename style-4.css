@@ -1754,8 +1754,8 @@ div.form-control {
 .panel-primary {
     border-color: #397897;
 	background-color: #397897;
-	height: 27px;
-	width: 290px !important;
+	/*height: 27px;
+	width: 290px !important;*/
 }
 
     .panel-primary > .panel-heading {
