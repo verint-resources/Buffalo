@@ -1727,11 +1727,16 @@ div.form-control {
     padding: 10px 15px;
 }
 
+.navbar-logo {
+	background-color: #005070;
+	padding-right: 557.5px ​!important;
+}
+
 .logo {
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-left: 60px;
     max-height: 84px;
 }
 
