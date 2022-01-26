@@ -1104,7 +1104,7 @@ KS: Custom gov multi-checkbox - Start
     display: inline-block;
 }
 .text-align-right > .one,.text-align-right > .two,.text-align-right > .three,.text-align-right > .four,.text-align-right > .five,.text-align-right > .six,.text-align-right > .seven,.text-align-right > .eight,.text-align-right > .nine,.text-align-right > .ten,.text-align-right > .eleven,.text-align-right > legend{
-    text-align: right !important;
+    /*text-align: right !important;*/
 }
 .text-align-center > .one,.text-align-center > .two,.text-align-center > .three,.text-align-center > .four,.text-align-center > .five,.text-align-center > .six,.text-align-center > .seven,.text-align-center > .eight,.text-align-center > .nine,.text-align-center >.ten,.text-align-center >.eleven,.text-align-center > legend{
     text-align: center !important;
