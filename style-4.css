@@ -824,7 +824,8 @@ KS: Custom gov radio buttons - Start
 }
 /*KS: Customizes the title/legend */
 .rad-gov legend {
-    font-size: 1rem;
+   /* font-size: 1rem;*/
+    font-size: 17px !important;
     line-height: 1.2 !important;
     margin-bottom: 0px !important;
 }
@@ -1554,7 +1555,7 @@ abbr{
     font-smoothing: antialiased;
     text-shadow: unset;
     outline: none;
-	font-size: 17px !important;
+	
 }
 #dform_container .header1, #dform_container .header2, #dform_container .header3, #dform_container .header4, #dform_container .header5 , #dform_container .header6, #dform_container h1, #dform_container h2, #dform_container h3, #dform_container h4, #dform_container h5 , #dform_container h6{
     /*KS: David wants header to be more consistant with text labels*/
